@@ -51,10 +51,7 @@ The options object can have the following properties:
 
   /** fix for when the header grows in size when it becomes unpinned and the scroll position changes (we need to scroll more) **/
   @supports (position: sticky) {
-    .sticky-unpinned #wrapper {
-      overflow-anchor: none;
-    }
-    .cat-sticky-unpinned #wrapper {
+    body.sticky-unpinned #wrapper {
       overflow-anchor: none;
     }
   }
