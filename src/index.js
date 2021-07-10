@@ -1,4 +1,4 @@
-import stickyHeader from './stickyHeader';
+import StickyHeader from './stickyHeader';
 
-export { stickyHeader };
-export default stickyHeader;
+export { StickyHeader };
+export default StickyHeader;

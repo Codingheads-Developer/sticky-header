@@ -11,11 +11,11 @@
 
 interface StickyHeaderOptions {
   pinnedClass?: string,
-      unpinnedClass?: string,
-      mainClass?: string,
-      offset?: number,
-      positionStickyWorkaround? : boolean,
-      addBodyClasses?: boolean,
+  unpinnedClass?: string,
+  mainClass?: string,
+  offset?: number,
+  positionStickyWorkaround? : boolean,
+  addBodyClasses?: boolean,
 }
 
 export default class StickyHeader {
