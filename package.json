@@ -1,6 +1,6 @@
 {
   "name": "@codingheads/sticky-header",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library that allows you to create sticky headers. It uses `position: sticky` and IntersectionObserver",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
