@@ -4,7 +4,7 @@
   "description": "A library that allows you to create sticky headers. It uses `position: sticky` and IntersectionObserver",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "module:src": "src/index.ts",
+  "module:src": "src/index.js",
   "umd:main": "dist/umd/index.js",
   "types": "dist/types/index.d.js",
   "authors": [
