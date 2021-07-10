@@ -17,6 +17,8 @@ npm install --save @codingheads/sticky-header
 To initialize the library, you need to create a new instance of the `stickyHeader` class:
 
 ```javascript
+import stickyHeader from '@codingheads/sticky-header';
+
 const header = document.querySelector('header.page-header');
 new stickyHeader(header, options);
 ```
@@ -24,6 +26,8 @@ new stickyHeader(header, options);
 Or using jQuery:
 
 ```javascript
+import '@codingheads/sticky-header';
+
 $('header.page-header).stickyHeader(options);
 ```
 
